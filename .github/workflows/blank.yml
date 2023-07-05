@@ -8,7 +8,8 @@ on:
     inputs:
       target_environment:
         type: choice
-        options: 
+        options:
+          - BOX
           - SIT
           - UAT
           - PREPROD
